@@ -1,0 +1,30 @@
+.main {
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  font-weight: 300;
+  color: #555555;
+
+  header {
+    letter-spacing: 0.5em;
+
+    .title {
+      display: inline-block;
+      font-size: 2em;
+      font-weight: 400;
+    }
+
+    border-bottom: 1px dotted #dddddd;
+    padding-bottom: .4em;
+    margin-bottom: .8em;
+  }
+
+  sub {
+    font-size: 0.7em;
+  }
+}
